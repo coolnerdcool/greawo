@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5001B61124CBC739004DAB63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		506844E824CB927F00D9974F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,9 @@
 		506844F324CB927F00D9974F /* greawo */ = {
 			isa = PBXGroup;
 			children = (
+				5001B61124CBC739004DAB63 /* Model */,
+				5068452824CBC71100D9974F /* Presenter */,
+				5068452724CBC70000D9974F /* View */,
 				506844F424CB927F00D9974F /* AppDelegate.swift */,
 				506844F624CB927F00D9974F /* SceneDelegate.swift */,
 				506844F824CB927F00D9974F /* ViewController.swift */,
@@ -129,6 +139,20 @@
 				5068451B24CB928200D9974F /* Info.plist */,
 			);
 			path = greawoUITests;
+			sourceTree = "<group>";
+		};
+		5068452724CBC70000D9974F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5068452824CBC71100D9974F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.michelortega.greawo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.michelortega.greawo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
