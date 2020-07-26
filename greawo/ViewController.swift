@@ -7,14 +7,21 @@
 //
 
 import UIKit
-
+//  This is the first view shown to the user.
 class ViewController: UIViewController {
-
+    
+    // MARK: - Properties.
+    // MARK: - IBOutlets.
+    
+    // MARK: - Methods.
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    // MARK: - IBActions.
 
 
 }
+// MARK: - Extensions.
 
