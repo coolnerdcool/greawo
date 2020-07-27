@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		503E953B24CE63D90013B46D /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E953A24CE63D90013B46D /* HomePresenter.swift */; };
 		506844F524CB927F00D9974F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506844F424CB927F00D9974F /* AppDelegate.swift */; };
 		506844F724CB927F00D9974F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506844F624CB927F00D9974F /* SceneDelegate.swift */; };
 		506844F924CB927F00D9974F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506844F824CB927F00D9974F /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		503E953A24CE63D90013B46D /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		506844F124CB927F00D9974F /* greawo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greawo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506844F424CB927F00D9974F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		506844F624CB927F00D9974F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		503E953824CE609B0013B46D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				506844F824CB927F00D9974F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		503E953924CE60B30013B46D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				506844FA24CB927F00D9974F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		506844E824CB927F00D9974F = {
 			isa = PBXGroup;
 			children = (
@@ -108,15 +126,13 @@
 		506844F324CB927F00D9974F /* greawo */ = {
 			isa = PBXGroup;
 			children = (
+				506844F424CB927F00D9974F /* AppDelegate.swift */,
+				506844F624CB927F00D9974F /* SceneDelegate.swift */,
+				5068450224CB928200D9974F /* LaunchScreen.storyboard */,
 				5001B61124CBC739004DAB63 /* Model */,
 				5068452824CBC71100D9974F /* Presenter */,
 				5068452724CBC70000D9974F /* View */,
-				506844F424CB927F00D9974F /* AppDelegate.swift */,
-				506844F624CB927F00D9974F /* SceneDelegate.swift */,
-				506844F824CB927F00D9974F /* ViewController.swift */,
-				506844FA24CB927F00D9974F /* Main.storyboard */,
 				5068450024CB928200D9974F /* Assets.xcassets */,
-				5068450224CB928200D9974F /* LaunchScreen.storyboard */,
 				5068450524CB928200D9974F /* Info.plist */,
 				506844FD24CB927F00D9974F /* greawo.xcdatamodeld */,
 			);
@@ -144,6 +160,8 @@
 		5068452724CBC70000D9974F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				503E953824CE609B0013B46D /* ViewControllers */,
+				503E953924CE60B30013B46D /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +169,7 @@
 		5068452824CBC71100D9974F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				503E953A24CE63D90013B46D /* HomePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -289,6 +308,7 @@
 				506844FF24CB927F00D9974F /* greawo.xcdatamodeld in Sources */,
 				506844F924CB927F00D9974F /* ViewController.swift in Sources */,
 				506844F524CB927F00D9974F /* AppDelegate.swift in Sources */,
+				503E953B24CE63D90013B46D /* HomePresenter.swift in Sources */,
 				506844F724CB927F00D9974F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
