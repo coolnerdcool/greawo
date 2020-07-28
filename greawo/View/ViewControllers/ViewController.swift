@@ -12,12 +12,24 @@ import UIKit
 class ViewController: UIViewController {
     
     // MARK: - Properties.
+
+    
     // MARK: - IBOutlets.
+    
     
     // MARK: - Methods.
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.title = "greawo"
+        
+//        Change the navigationbar to transparent.
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.view.backgroundColor = .clear
+    
     }
     
     // MARK: - IBActions.
