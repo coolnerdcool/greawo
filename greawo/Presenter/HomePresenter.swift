@@ -11,6 +11,7 @@ import UIKit
 
 class HomePresenter {
     /* THIS CLASS IS THE PRESENTER */
+    /* The idea of this class is to handle all the thigs happening in the Home View. */
 //    MARK: - Properties.
     
 //    MARK: - Methods.

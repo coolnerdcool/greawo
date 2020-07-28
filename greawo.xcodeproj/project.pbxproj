@@ -17,6 +17,8 @@
 		5068450424CB928200D9974F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5068450224CB928200D9974F /* LaunchScreen.storyboard */; };
 		5068450F24CB928200D9974F /* greawoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068450E24CB928200D9974F /* greawoTests.swift */; };
 		5068451A24CB928200D9974F /* greawoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068451924CB928200D9974F /* greawoUITests.swift */; };
+		50A2F49924CFC8D500849510 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2F49824CFC8D500849510 /* GoalViewController.swift */; };
+		50A2F49B24CFC8DF00849510 /* GoalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2F49A24CFC8DF00849510 /* GoalPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		5068451524CB928200D9974F /* greawoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greawoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5068451924CB928200D9974F /* greawoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greawoUITests.swift; sourceTree = "<group>"; };
 		5068451B24CB928200D9974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A2F49824CFC8D500849510 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		50A2F49A24CFC8DF00849510 /* GoalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				506844F824CB927F00D9974F /* ViewController.swift */,
+				50A2F49824CFC8D500849510 /* GoalViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				503E953A24CE63D90013B46D /* HomePresenter.swift */,
+				50A2F49A24CFC8DF00849510 /* GoalPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -308,7 +314,9 @@
 				506844FF24CB927F00D9974F /* greawo.xcdatamodeld in Sources */,
 				506844F924CB927F00D9974F /* ViewController.swift in Sources */,
 				506844F524CB927F00D9974F /* AppDelegate.swift in Sources */,
+				50A2F49924CFC8D500849510 /* GoalViewController.swift in Sources */,
 				503E953B24CE63D90013B46D /* HomePresenter.swift in Sources */,
+				50A2F49B24CFC8DF00849510 /* GoalPresenter.swift in Sources */,
 				506844F724CB927F00D9974F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

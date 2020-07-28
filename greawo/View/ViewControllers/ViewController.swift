@@ -6,6 +6,7 @@
 //  Copyright © 2020 Michel Ortega. All rights reserved.
 //
 
+import Foundation
 import UIKit
 //  This is the first view shown to the user.
 class ViewController: UIViewController {
